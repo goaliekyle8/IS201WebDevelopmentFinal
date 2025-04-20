@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #121213;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  #game {
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+    gap: 10px;
+    margin: 0 auto 20px;
+    width: max-content;
+  }
+  
+  .row {
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    gap: 5px;
+  }
+  
+  .tile {
+    width: 60px;
+    height: 60px;
+    background-color: #3a3a3c;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: 2px solid #555;
+  }
+  
+  .correct {
+    background-color: #538d4e;
+    border-color: #538d4e;
+  }
+  
+  .present {
+    background-color: #b59f3b;
+    border-color: #b59f3b;
+  }
+  
+  .absent {
+    background-color: #3a3a3c;
+    border-color: #3a3a3c;
+  }
+  
+  #inputSection {
+    margin-top: 20px;
+  }
+  
+  input {
+    font-size: 18px;
+    padding: 10px;
+    width: 200px;
+    text-transform: uppercase;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  #message {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #ddd;
+  }
+  .header{
+    text-align: right;
+}
+.header a {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px; /* Centers the text vertically */
+    background-color: lightgray; /* White background for buttons */
+    color: black; /* Green text */
+    font-size: 16px;
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover */
+}
+
+.header a:hover {
+    background-color: black; /* Green background on hover */
+    color: white; /* White text on hover */
+}

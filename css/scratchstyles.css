@@ -1,0 +1,73 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color: lightgray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0c2340;
+}
+.italics{
+    font-style: italic;
+}
+h2{
+    text-decoration: underline;
+}
+.subtitle{
+    font-size:16px;
+    text-align: center;
+}
+.resume{
+    background-color: whitesmoke;
+    padding-top: 25px;
+    padding-left: 360px;
+    padding-right: 360px;
+}
+.header{
+    height: 60px;
+}
+.dropdown{
+    text-align:center;
+    text-emphasis-color: blue;
+}
+.header{
+    text-align: right;
+}
+.header a {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px; /* Centers the text vertically */
+    background-color: lightgray; /* White background for buttons */
+    color: #0c2340; /* Green text */
+    font-size: 16px;
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover */
+}
+
+.header a:hover {
+    background-color: whitesmoke; /* Green background on hover */
+    color: #0c2340; /* White text on hover */
+}
+.tableauWrapper {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Full viewport height */
+}
+header{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0c2340;
+    font-size: 40px;
+    text-align: center;
+}
+img {
+    height: 30%;
+    width: 30%;
+    padding-left: 160px;
+    border-width:5px;
+    border-color: black;
+}
+.footer {
+    background-color: whitesmoke;
+}
